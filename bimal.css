@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.art {
+    height: 20px;
+    width: 135px;
+
+    background-color: chartreuse;
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 1388px;
+    margin-top: 20px;
+}
+
+.border:hover {
+    border: 2.9px solid black;
+    border-style: dotted;
+}
+
+body {
+    background-color: rgb(164, 144, 147);
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 30px;
+    color: rgb(24, 30, 23);
+    font-weight: bolder;
+
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    font-size: 8vmin;
+    color: rgb(137, 57, 0);
+    background-color: rgb(251, 244, 146);
+}
+
+#reset {
+    padding: 1rem;
+    font-size: 1.29rem;
+    background-color: chartreuse;
+    border-radius: 1rem;
+    border: 3px solid black;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 1.5);
+
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.29rem;
+    background-color: chartreuse;
+    border-radius: 1rem;
+    border: 3px solid black;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 1.5);
+    margin-top: 20px;
+}
+
+#msg {
+    color: rgb(27, 26, 21);
+    font-size: 8vmin;
+
+}
+
+.msg-container {
+    height: 30vmin;
+}
+
+.hide {
+    display: none;
+}
